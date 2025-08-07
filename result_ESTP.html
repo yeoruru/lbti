@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=1.0">
+    <meta name="Keywords" content="집콕루틴, LBTI, 현대리바트" />
+    <meta name="Description" content="나만의 #집콕루틴 으로 알아보는 성향 테스트, LBTI"/>
+    <meta property="og:url" content="http://hyundaiilivart.cafe24.com/lbti/result_ESTP.html">
+    <meta property="og:title" content="나의 집콕 성향은... 겨울 잠자는 지리산 반달곰">
+    <meta property="og:image" content="http://hyundaiilivart.cafe24.com/lbti/image/sub/result/ESTP/facebook_img.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="420">
+    <meta property="og:description" content="#집콕루틴 테스트, LBTI">
+    <title>#집콕루틴 테스트, LBTI</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link href="css/common.css?ver=20201126" rel="stylesheet" type="text/css">
+    <link href="css/font.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/result.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T562R4TEBR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-T562R4TEBR');
+    </script>
+</head>
+
+<body>
+<div class="result">
+    <section class="inner">
+        <img id="hdlResultImg" src="image/sub/result/ESTP/result_img.png" alt="결과이미지" width="100%">
+        <h2 class="name" id="hdlNameBox"><span id="hdlName"></span>님의 <b>집콕 루틴은?</b></h2>
+        <div class="btnBox">
+            <a href="https://remodeling.hyundailivart.co.kr/coupon/couponzone" target="_blank" onclick="gtag('event', 'click_coupon');" class="coupon"><img src="image/sub/result/coupon.png" alt="현대리바트 할인쿠폰"></a>
+            <a href="javascript:resultObj.shareResult('url')"><img src="image/sub/result/url.png" alt="내 집콕 성향 공유 하기"></a>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="btnBox b">
+            <a href="javascript:location.replace('/lbti');"><img src="image/sub/result/btn.png" alt="LBIT 테스트 다시하기"></a>
+            <a href="https://remodeling.hyundailivart.co.kr" target="_blank" onclick="gtag('event', 'click_go_hyundailivart');"><img src="image/sub/result/home.png" alt="다양한 현대 리바트 제품이 궁금 하다면?"></a>
+        </div>
+        <div class="sns">
+            <a href="javascript:resultObj.shareResult('kakaotalk')"><img src="image/sub/result/kakao.png" alt="카카오톡 공유하기"></a>
+            <a href="javascript:resultObj.shareResult('facebook')"><img src="image/sub/result/facebook.png" alt="페이스북 공유하기"></a>
+        </div>
+    </section>
+</div><!-- //wrap -->
+
+<!-- 공유 -->
+<input type="hidden" id="mbti" value="ESTP">
+<input type="hidden" id="snsTitle" value="나의 집콕 성향은… 겨울 잠자는 지리산 반달곰">
+<input type="hidden" id="snsUrl" value="/result_ESTP.html">
+<input type="hidden" id="snsImg" value="/image/sub/result/ESTP/kakao_img.png">
+<input type="text" id="snsCopy" style="position:absolute; top:-9999em; left:-9999em;" />
+<!-- kakao -->
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script>
+    Kakao.init('e0ad7a7115aa9bbfb86b32963e73422f');
+</script>
+</body>
+
+</html>

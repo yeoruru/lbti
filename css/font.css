@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+ font-family: 'S-CoreDream';
+ font-weight: normal;
+ src: url(../fonts/S-CoreDream-5Medium.eot);
+ src: url(../fonts/S-CoreDream-5Medium.woff) format('woff'),
+      url(../fonts/S-CoreDream-5Medium.woff2) format('woff2'),
+      url(../fonts/S-CoreDream-5Medium.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'S-CoreDream';
+ font-weight: bold;
+ src: url(../fonts/S-CoreDream-8Heavy.eot);
+ src: url(../fonts/S-CoreDream-8Heavy.woff) format('woff'),
+      url(../fonts/S-CoreDream-8Heavy.woff2) format('woff2'),
+      url(../fonts/S-CoreDream-8Heavy.ttf) format('truetype');
+}
